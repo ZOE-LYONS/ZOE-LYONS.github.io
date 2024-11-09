@@ -1,5 +1,5 @@
-h1{color:orange}
-p{color:orangered}
+h1{color:rgb(0, 0, 0)}
+p{color:rgb(42, 11, 0)}
 table{color:blueviolet}
 ul{color:brown}
 
@@ -7,10 +7,12 @@ ul{color:brown}
 
 .myFirstClass {color:green}
 
-body{background-image: url("../IMG/656a628ac0f44738f58ff5a51486b774.jpg"); 
+/* body{background-image: url("../IMG/656a628ac0f44738f58ff5a51486b774.jpg"); 
     background-attachment: fixed; 
     background-position-x: center; 
-        } 
+        } */
+
+body{background-color: darksalmon); 
 
 .deco {text-decoration-line: underline;
         text-decoration-style: dotted;
