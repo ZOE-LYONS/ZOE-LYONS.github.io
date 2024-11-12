@@ -63,3 +63,15 @@ rather than needing to then go and apply it to the specific paragraphs I need */
 a{color:purple;}
 a:visited{color:brown;}
 a:hover{color:lightcoral;}
+
+/* makes a red box around my links! I don't want it but I love that it's possible */
+a:link, a:visited {
+    background-color:crimson;
+    color:white;
+    padding:14px 25px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+}
+
+/* <!important> will make certain features of a class take precedence, and override other aspects of the code */
