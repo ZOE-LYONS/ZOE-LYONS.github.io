@@ -1,11 +1,6 @@
 h1{color:rgb(0, 0, 0)}
 p{color:rgb(42, 11, 0)}
-table{color:blueviolet}
-ul{color:brown}
-
-#paragraph-pink {color:rgb(255, 0, 174);} 
-
-.myFirstClass {color:green}
+ul{color:rgb(42, 11, 0)}
 
 /* body{background-image: url("../IMG/656a628ac0f44738f58ff5a51486b774.jpg"); 
     background-attachment: fixed; 
@@ -13,6 +8,11 @@ ul{color:brown}
         } */
 
 body{background-color: darksalmon}
+
+div {
+  width:900px;
+  margin:auto;
+}
 
 .deco {text-decoration-line: underline;
         text-decoration-style: dotted;
@@ -65,13 +65,20 @@ a:visited{color:brown;}
 a:hover{color:lightcoral;}
 
 /* makes a red box around my links! I don't want it but I love that it's possible */
-a:link, a:visited {
+/* a:link, a:visited {
     background-color:crimson;
     color:white;
     padding:14px 25px;
     text-align:center;
     display:inline-block;
     text-decoration:none;
-}
+} */
 
 /* <!important> will make certain features of a class take precedence, and override other aspects of the code */
+
+/* Classes for backgrounds */
+#intro_bg {background-color: salmon;}
+#education_bg {background-color: lightblue;}
+#projects_bg {background-color: lightgreen;}
+#workexp_bg {background-color: yellow;}
+#contact_bg {background-color: rgb(128, 109, 83);}
