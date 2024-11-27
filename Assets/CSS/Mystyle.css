@@ -1,84 +1,48 @@
+/* Here is my CSS sheet for my personal CV wesbite */
+
+/* <!important> will make certain features of a class take precedence, and 
+override other aspects of the code */
+
+/*setting colours of text */
 h1{color:rgb(0, 0, 0)}
+h2{color:rgb(0, 0, 0)}    
 p{color:rgb(42, 11, 0)}
 ul{color:rgb(42, 11, 0)}
 
-/* body{background-image: url("../IMG/656a628ac0f44738f58ff5a51486b774.jpg"); 
-    background-attachment: fixed; 
-    background-position-x: center; 
-        } */
-
-body{background-color: darksalmon}
-
-div {
-  width:900px;
-  margin:auto;
-}
-
-.deco {text-decoration-line: underline;
-        text-decoration-style: dotted;
-        text-decoration-thickness: 5px; 
-        }
-
-.font-size-small{font-size: 0.5rem;}
-.font-size-large{font-size: 3rem;} 
-.bhutuka-expanded-one-regular {
-    font-family: "BhuTuka Expanded One", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-
-  /* font style is for italics -- font-weight is for boldness, 
-  and can be determined by a number (usually a multiple of 100) 
-  or by simply the word "bold" */
-
-.doto-font {
-  font-family: "Doto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: italic;
-  font-variation-settings:
-    "ROND" 0;
-}
-
-/* text-indent, letter-spacing, line-height, word-spacing, white-space */
-/* these are some examples of features in a font class we can play with */
-.doto-font2 {
-    font-family: "Doto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings:
-      "ROND" 0;
-    text-indent: 100px;
-    letter-spacing: 10px;
-    line-height: normal;
-    word-spacing: normal;
-    white-space: normal;
-  }
-
 /* changing the colour of links */
-/* note: I really love how this lets me change everything globally immediately
-rather than needing to then go and apply it to the specific paragraphs I need */
-
 a{color:purple;}
 a:visited{color:brown;}
 a:hover{color:lightcoral;}
 
-/* makes a red box around my links! I don't want it but I love that it's possible */
-/* a:link, a:visited {
-    background-color:crimson;
-    color:white;
-    padding:14px 25px;
-    text-align:center;
-    display:inline-block;
-    text-decoration:none;
-} */
-
-/* <!important> will make certain features of a class take precedence, and override other aspects of the code */
-
-/* Classes for backgrounds */
+/* IDs for backgrounds */
 #intro_bg {background-color: salmon;}
 #education_bg {background-color: lightblue;}
 #projects_bg {background-color: lightgreen;}
 #workexp_bg {background-color: yellow;}
 #contact_bg {background-color: rgb(128, 109, 83);}
+
+/* defining characteristics of div to center text & bgs & make it not ugly */
+div {
+  width: 1000px;
+  padding: 50px;
+  margin: auto;
+  margin-top: 2%;
+  text-align: left;
+  }
+
+/* Class for main font */
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 300 to 800 */
+.parkinsans-main-font {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* um */
+.bhutuka-expanded-one-regular {
+  font-family: "BhuTuka Expanded One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
