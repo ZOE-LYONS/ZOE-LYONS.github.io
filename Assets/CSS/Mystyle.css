@@ -25,7 +25,7 @@ a:hover{color:lightcoral;}
 eff things up with bootstrap -- could switch to defining it as a class and calling it at the top of 
 every major div*/
 div.main-section-container {
-  width: 70%;
+  width: 1000px;
   padding: 7%;
   margin: auto;
   margin-top: 2%;
@@ -47,4 +47,10 @@ div.main-section-container {
   font-family: "BhuTuka Expanded One", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* styling lists */ 
+ul.left-align-good-dots {
+  display: inline-block;
+  text-align: left;
 }
