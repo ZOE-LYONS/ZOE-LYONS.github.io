@@ -21,10 +21,12 @@ a:hover{color:lightcoral;}
 #workexp_bg {background-color: yellow;}
 #contact_bg {background-color: rgb(128, 109, 83);}
 
-/* defining characteristics of div to center text & bgs & make it not ugly */
-div {
-  width: 1000px;
-  padding: 50px;
+/* defining characteristics of div to center text & bgs & make it not ugly -- be wary of this, it might 
+eff things up with bootstrap -- could switch to defining it as a class and calling it at the top of 
+every major div*/
+div.main-section-container {
+  width: 70%;
+  padding: 7%;
   margin: auto;
   margin-top: 2%;
   text-align: left;
