@@ -7,7 +7,23 @@ override other aspects of the code */
 h1{color:rgb(0, 0, 0)}
 h2{color:rgb(0, 0, 0)}    
 p{color:rgb(42, 11, 0)}
-ul{color:rgb(42, 11, 0)}
+ul{color:rgb(42, 11, 0);
+  list-style-type: circle;
+  margin: 1;
+  padding: 1;
+  }
+
+/* styling lists */ 
+ul.left-align {
+  display: inline-block;
+  text-align: left;
+}
+
+ul.no-circle {
+  list-style-type: none;
+  margin: 1;
+  padding: 1;
+}
 
 /* changing the colour of links */
 a{color:purple;}
@@ -47,10 +63,4 @@ div.main-section-container {
   font-family: "BhuTuka Expanded One", serif;
   font-weight: 400;
   font-style: normal;
-}
-
-/* styling lists */ 
-ul.left-align-good-dots {
-  display: inline-block;
-  text-align: left;
 }
