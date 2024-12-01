@@ -47,13 +47,10 @@ a:visited.white-text-visited{color:rgb(207, 153, 153);}
 /* class for cetnering heading */
 h1.center-h1 {text-align: center;}
 
-/* defining characteristics of div to center text & bgs & make it not ugly -- be wary of this, it might 
-eff things up with bootstrap */
+/* class to add padding between sections & edge of viewscreen */
 div.main-section-container {
-  /* width: 85%; */
-  padding: 7%;
-  margin: auto;
-  /* margin-top: 2%; */
+  padding: 5%;
+  margin: none;
   text-align: left;
   }
 
