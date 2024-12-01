@@ -28,7 +28,7 @@ ul.no-circle {
 /* changing the colour of links */
 a{color:#D64B77;}
 a:visited{color:rgb(124, 65, 65);}
-a:hover{color:#ffefd5;}
+a:hover{color:#ffd5d5;}
 
 /* IDs for backgrounds */
 #title {background-color: #ffefd5}
@@ -43,6 +43,9 @@ h1.white-text {color:#ffefd5}
 h2.white-text {color:#ffefd5}
 /* this one doesn't work rn */
 a:visited.white-text-visited{color:rgb(207, 153, 153);}
+
+/* class for cetnering heading */
+h1.center-h1 {text-align: center;}
 
 /* defining characteristics of div to center text & bgs & make it not ugly -- be wary of this, it might 
 eff things up with bootstrap */
