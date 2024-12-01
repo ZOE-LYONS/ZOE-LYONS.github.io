@@ -38,13 +38,12 @@ a:hover{color:lightcoral;}
 #contact_bg {background-color: rgb(128, 109, 83);}
 
 /* defining characteristics of div to center text & bgs & make it not ugly -- be wary of this, it might 
-eff things up with bootstrap -- could switch to defining it as a class and calling it at the top of 
-every major div*/
+eff things up with bootstrap */
 div.main-section-container {
-  width: 85%;
+  /* width: 85%; */
   padding: 7%;
   margin: auto;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   text-align: left;
   }
 
@@ -58,7 +57,7 @@ div.main-section-container {
   font-style: normal;
 }
 
-/* um */
+/* class for alternate font because i'm scared */
 .bhutuka-expanded-one-regular {
   font-family: "BhuTuka Expanded One", serif;
   font-weight: 400;
