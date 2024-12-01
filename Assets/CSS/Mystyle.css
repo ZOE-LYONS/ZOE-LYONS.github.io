@@ -41,6 +41,7 @@ a:hover{color:#ffefd5;}
 /* class for white text */
 h1.white-text {color:#ffefd5}
 h2.white-text {color:#ffefd5}
+/* this one doesn't work rn */
 a:visited.white-text-visited{color:rgb(207, 153, 153);}
 
 /* defining characteristics of div to center text & bgs & make it not ugly -- be wary of this, it might 
