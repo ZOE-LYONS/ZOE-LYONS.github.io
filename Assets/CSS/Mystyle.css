@@ -4,10 +4,10 @@
 override other aspects of the code */
 
 /*setting colours of text */
-h1{color:rgb(0, 0, 0)}
-h2{color:rgb(0, 0, 0)}    
-p{color:rgb(42, 11, 0)}
-ul{color:rgb(42, 11, 0);
+h1{color:#3d0c11}
+h2{color:#3d0c11}    
+p{color:#3d0c11}
+ul{color:#3d0c11;
   list-style-type: circle;
   margin: 1;
   padding: 1;
@@ -26,16 +26,22 @@ ul.no-circle {
 }
 
 /* changing the colour of links */
-a{color:purple;}
-a:visited{color:brown;}
-a:hover{color:lightcoral;}
+a{color:#D64B77;}
+a:visited{color:rgb(124, 65, 65);}
+a:hover{color:#ffefd5;}
 
 /* IDs for backgrounds */
-#intro_bg {background-color: salmon;}
-#education_bg {background-color: lightblue;}
-#projects_bg {background-color: lightgreen;}
-#workexp_bg {background-color: yellow;}
-#contact_bg {background-color: rgb(128, 109, 83);}
+#title {background-color: #ffefd5}
+#intro_bg {background-color: #D6745C;}
+#education_bg {background-color: #FFBC51;}
+#projects_bg {background-color: #B1CC74;}
+#workexp_bg {background-color: #FFBC51;}
+#contact_bg {background-color: #3d0c11;}
+
+/* class for white text */
+h1.white-text {color:#ffefd5}
+h2.white-text {color:#ffefd5}
+a:visited.white-text-visited{color:rgb(207, 153, 153);}
 
 /* defining characteristics of div to center text & bgs & make it not ugly -- be wary of this, it might 
 eff things up with bootstrap */
