@@ -10,7 +10,8 @@ margin-bottom: 1%;
 }
 
 h2{color:#3d0c11;
-font-size: 2em}
+font-size: 2em;
+margin-top: 3%}
 
 h3{color:#3d0c11;
   font-size: 1.5em}
@@ -22,22 +23,27 @@ ul{color:#3d0c11;
   margin: 1;
   padding: 1;}
 
-/* special features of text*/
+/* making text larger sometimes*/
 .larger-pg{
   color:#3d0c11;
   font-size: 1.2em;
 }
 
-/* styling lists */ 
-ul.left-align {
-  display: inline-block;
-  text-align: left;
+ul.larger-pg{
+  color:#3d0c11;
+  font-size: 1.2em;
 }
+
+/* styling lists */
 
 ul.no-circle {
   list-style-type: none;
   margin: 1;
   padding: 1;
+}
+
+ul.left-indent {
+  padding-left: 20%
 }
 
 /* changing the colour of links */
@@ -48,6 +54,7 @@ a:hover{color:#fa5e5e;}
 /* IDs for backgrounds */
 #title {background-color: #ffefd5}
 #intro_bg {background-color: #D6745C;}
+#skills_bg {background-color: #B1CC74;}
 #education_bg {background-color: #FFBC51;}
 #projects_bg {background-color: #B1CC74;}
 #workexp_bg {background-color: #FFBC51;}
@@ -55,12 +62,16 @@ a:hover{color:#fa5e5e;}
 
 /* class for white text */
 h1.white-text {color:#ffefd5}
-h2.white-text {color:#ffefd5}
+p.white-text {color:#ffefd5;
+  font-size: 1.8em;
+  margin: 0.2;
+  padding: 0.2;
+}
 
 /* this one doesn't work rn */
 a:visited.white-text-visited{color:rgb(207, 153, 153)}
 
-/* class for cetnering heading */
+/* class for centering heading */
 h1.center-h1 {text-align: center;}
 
 /* class to add padding between sections & edge of viewscreen */
@@ -110,4 +121,14 @@ img.dark-border{
   padding: none;
   margin: auto;
   border: 10px solid #3d0c11
+}
+
+/* Chatgpt told me to add this to make my education section image work */
+.floating-image {
+  float: left; /* Standard float for wrapping */
+  shape-outside: rectangle(0, 0, 100%, 100%);
+  margin-right: 20px; /* Space between image and text */
+  margin-bottom: 20px; /* Ensure gap below image */
+  width: 30%; /* Adjust to your image size */
+  height: auto; /* Maintain aspect ratio */
 }
