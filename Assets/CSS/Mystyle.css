@@ -3,15 +3,30 @@
 /* <!important> will make certain features of a class take precedence, and 
 override other aspects of the code */
 
-/*setting colours of text */
-h1{color:#3d0c11}
-h2{color:#3d0c11}    
-p{color:#3d0c11}
+/*setting colours and basic features of text */
+h1{color:#3d0c11;
+font-size: 3em;
+margin-bottom: 1%;
+}
+
+h2{color:#3d0c11;
+font-size: 2em}
+
+h3{color:#3d0c11;
+  font-size: 1.5em}
+
+p{color:#3d0c11;}
+
 ul{color:#3d0c11;
   list-style-type: circle;
   margin: 1;
-  padding: 1;
-  }
+  padding: 1;}
+
+/* special features of text*/
+.larger-pg{
+  color:#3d0c11;
+  font-size: 1.2em;
+}
 
 /* styling lists */ 
 ul.left-align {
@@ -26,9 +41,9 @@ ul.no-circle {
 }
 
 /* changing the colour of links */
-a{color:#D64B77;}
+a{color:#ff3d7b;}
 a:visited{color:rgb(124, 65, 65);}
-a:hover{color:#ffd5d5;}
+a:hover{color:#fa5e5e;}
 
 /* IDs for backgrounds */
 #title {background-color: #ffefd5}
@@ -41,8 +56,9 @@ a:hover{color:#ffd5d5;}
 /* class for white text */
 h1.white-text {color:#ffefd5}
 h2.white-text {color:#ffefd5}
+
 /* this one doesn't work rn */
-a:visited.white-text-visited{color:rgb(207, 153, 153);}
+a:visited.white-text-visited{color:rgb(207, 153, 153)}
 
 /* class for cetnering heading */
 h1.center-h1 {text-align: center;}
@@ -53,6 +69,11 @@ div.main-section-container {
   margin: none;
   text-align: left;
   }
+
+div.body-text-padding{
+  padding: 5%;
+  margin: 5%;
+}
 
 /* Class for main font */
 /* <uniquifier>: Use a unique and descriptive class name */
@@ -69,4 +90,24 @@ div.main-section-container {
   font-family: "BhuTuka Expanded One", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* padding and border and max-width for images */
+img{
+  max-width:100%;
+  padding: none;
+  margin: auto;
+  border: 10px solid #ffefd5;
+  margin-right: 4%;
+}
+
+img.no-border{
+  border: none
+}
+
+img.dark-border{
+  max-width: 100%;
+  padding: none;
+  margin: auto;
+  border: 10px solid #3d0c11
 }

@@ -10,8 +10,7 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expande
-    d+One&family=Doto:wght@100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Doto:wght@100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
   </head>
 
 <!-- start of body -->
@@ -24,27 +23,26 @@
     <div class="main-section-container" id="title">
       <h1>Zoe Lyons - Web CV</h1>
 
-    <!-- Profile pic with bullet points; trying to remove excess margins/padding
-       playing with element: <div class="main-section-container"> -->
-      <div class="container">
+    <!-- Profile pic with bullet points -->
+      <div class="container" class="body-text-padding">
         <div class="row align-items-start">
-          <div class="col-md-3">
-            <p>Table of Contents:</p>
+          <div class="col-sm">
+            <img class="dark-border" src="Assets/IMG/pfp.png" alt="intro photo">
+          </div>
+          <div class="col-sm-5">
+            <p class="larger-pg">I am a cataloguing, archives & data management specialist based out of Montreal - Tiohtià:ke.</p>
+            <p class="larger-pg">Please <a href="#section-5">contact me</a> if you're interested in hiring a recently-graduated information specialist!</p>
+            <p class="larger-pg">They/them</p>
+          </div>
+          <div class="col-sm">
+            <p class="larger-pg">Table of Contents:</p>
             <ul> 
-              <li><a href="#section-1">Bio</a><br /></li>
-              <li><a href="#section-2">Education</a><br /></li>
-              <li><a href="#section-3">Notable Projects</a><br /></li>
-              <li><a href="#section-4">Work Experience</a><br /></li>
-              <li><a href="#section-5">Contact Info</a><br /></li>
+              <li class="larger-pg"><a href="#section-1">Bio</a><br /></li>
+              <li class="larger-pg"><a href="#section-2">Education</a><br /></li>
+              <li class="larger-pg"><a href="#section-3">Notable Projects</a><br /></li>
+              <li class="larger-pg"><a href="#section-4">Work Experience</a><br /></li>
+              <li class="larger-pg"><a href="#section-5">Contact Info</a><br /></li>
             </ul>
-          </div>
-          <div class="col-sm">
-            <img src="Assets/IMG/pfp.png" style="width:100%" alt="intro photo">
-          </div>
-          <div class="col-sm">
-            <p>I am a cataloguing, archives & data management specialist based out of Montreal - Tiohtià:ke.</p>
-            <p>Please <a href="#section-5">contact me</a> if you're interested in hiring a recently-graduated information specialist!</p>
-            <p>They/them</p>
           </div>
         </div>      
       </div>
@@ -52,25 +50,27 @@
 
 
 
+
 <!-- new section -->
-    <div class="main-section-container" class="clearfix" id="intro_bg"> 
-      <img src="Assets/IMG/IMG_3440.jpg" style="max-width:100%" class="col-md-7 float-md-end mb-3 ms-md-3" alt="Photo outside a coffee shop"> 
+    <div class="main-section-container" id="intro_bg"> 
+      <img src="Assets/IMG/IMG_3440.jpg" class="col-md-7 float-md-end mb-3 ms-md-3 img-fluid" alt="Photo outside a coffee shop"> 
 
-      <h1 id="section-1">Bio</h1>
+      <h1 id="section-1">Introduction</h1>
+        <div>
+          <p>Zoe is a current MIST student at Mcgill University in Montreal, Quebec, Canada. 
+          They are from Dartmouth, Nova Scotia originally and raised in Ottawa, Ontario. Their 
+          undergraduate studies were in Philosophy and English Literature, with some 
+          specialization in Digital Humanities. They enjoy going to the movies, live theatre, 
+          live music, and hosting shabbat dinners with their friends. They also do some amateur photography. 
+          The images on this website are all their original work. </p>
 
-      <p>Zoe is a current MIST student at Mcgill University in Montreal, Quebec, Canada. 
-      They are from Dartmouth, Nova Scotia originally and raised in Ottawa, Ontario. Their 
-      undergraduate studies were in Philosophy and English Literature, with some 
-      specialization in Digital Humanities. They enjoy going to the movies, live theatre, 
-      live music, and hosting shabbat dinners with their friends. They also do some amateur photography. 
-      The images on this website are all their original work. </p>
-
-      <p>Zoe’s professional focus began in archives, as they did some undergraduate work with rare books. 
-      Since starting the program they have pivoted towards data science, taking courses on web design 
-      and database management. They enjoy working in archives and libraries, both of which they’ve 
-      done fairly extensively on a volunteer basis. They love linking information to user needs and mending gaps in 
-      the systems that make information less accessible. They’re eager to gain more experience 
-      and expand their portfolio. </p>
+          <p>Zoe’s professional focus began in archives, as they did some undergraduate work with rare books. 
+          Since starting the program they have pivoted towards data science, taking courses on web design 
+          and database management. They enjoy working in archives and libraries, both of which they’ve 
+          done fairly extensively on a volunteer basis. They love linking information to user needs and mending gaps in 
+          the systems that make information less accessible. They’re eager to gain more experience 
+          and expand their portfolio. </p>
+        </div>
     </div>
   </div>
 
@@ -79,13 +79,14 @@
 <div class="main-section-container" id="education_bg" class="clearfix">
 
   <h1 id="section-2">Education</h1>
-    <img src="Assets/IMG/IMG_3169.jpg" style="max-width:100%" class="col-md-5 float-md-end mb-3 ms-md-3" alt="Photo from Mcgill campus, inside Education Building">
+    <img src="Assets/IMG/IMG_3169.jpg" class="col-md-5 float-md-start mb-3 ms-md-3" alt="Photo from Mcgill campus, inside Education Building">
 
-    <h2>⛫ <a href="https://www.mcgill.ca/sis/programs/mist">Master’s of Information Science</a> - Mcgill University</h2>
+    <h2>⛫ Mcgill University</h2>
+    <h3><a href="https://www.mcgill.ca/sis/programs/mist">Master’s of Information Science</a></h3>
     <ul class="no-circle">
       <li>2023-ongoing</li>
       <li>3.92/4.00 CGPA</li>
-    </ul>
+    </ul> 
     <p>Currently completed all required core courses, as well as:</p>
       <ul>
         <li>Classification & Cataloguing</li>
@@ -97,7 +98,9 @@
       </ul>
     <p>I decided to enrol in the MiST a few years after moving to Montreal because I was looking forward to my future career goals. I quickly fell in love with the program, my peers, and the communities surrounding the information science profession. I was especially intrigued by the long history of information science, which has grown alongside person-to-person communication technologies over the last century. It’s no small task to keep up with, and keep sane within.</p>
 
-  <h2>⛫ <a href="https://carleton.ca/bhum/">Bachelor of Humanities</a> - Carleton University </a> </h2>
+  <h2>⛫ Carleton University</h2>
+  <h3><a href="https://carleton.ca/bhum/">Bachelor of Humanities</a></h3>
+
     <ul class="no-circle">
       <li> 2017-2021 </li>
       <li> 11.32/12.00 CGPA </li>
@@ -122,7 +125,7 @@
 <div class="main-section-container" id="projects_bg" class="clearfix">
 
   <h1 id="section-3">Notable Projects</h1>
-    <img src="Assets/IMG/IMG_9764.jpg" style="max-width:100%" class="col-md-5 float-md-end mb-3 ms-md-3" alt="the voyage by Veronica Selinas">
+    <img src="Assets/IMG/IMG_9764.jpg" class="col-md-5 float-md-end mb-3 ms-md-3" alt="the voyage by Veronica Selinas">
 
       <h2>Philosophy for Children</h2>
         <p>As part of a blended undergraduate/graduate seminar class in the philosophy department, me and my 
@@ -154,7 +157,7 @@
       </ul>
 
   <h2>CIRFA Cataloguing</h2> 
-  <img src="Assets/IMG/015050130009.jpg" style="max-width:100%" class="col-md-6 float-md-end mb-3 ms-md-3" alt="photo from the CIRFA Office">
+  <img src="Assets/IMG/015050130009.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="photo from the CIRFA Office">
     <p>Under the guidance of <a href="https://www.linkedin.com/in/christine-jacobs-b090484?originalSubdomain=ca">Christine Jacobs</a>, me and a team of student volunteers made headway in cataloguing the collection of texts held by the <a href="https://centreinternationalisterfa.org/">Centre Internationaliste Ryerson Fondation Aubin.</a> The collection consisted mainly of books owned by Stanley Bréhaut Ryerson, and some works donated by his friends and colleagues. The mandate of the foundation is to “entend contribuer au décloisonnement des espaces de production de la pensée progressiste et du savoir engagé.”</p>
     
     <p>This project used the OPALS automated library system. Over the summer, my colleagues and I filled 
@@ -175,7 +178,7 @@
     This project is ongoing under the supervision of archivist 
     <a href="https://www.linkedin.com/in/williamjones2/?originalSubdomain=ca">William Jones.</a></p>
 
-  <h2>CCA Ctaloguing Practicum</h2>
+  <h2>CCA Cataloguing Practicum</h2>
   <p>Beginning in the Winter 2025 term, I start a cataloguing project with the Canadian Center for Architecture,
     a museum and research center here in Montreal. The CCA's unique collections and rotating exhibits draw a variety of 
     visitors to the site, from academics, to architects, to artists. This project will consist in original and copy catloaguing of their library collections, primarily monographs. It will also involve the revision of existing 
@@ -192,9 +195,10 @@
 <div class="main-section-container" id="workexp_bg" class="clearfix">
 
   <h1 id="section-4">Work Experience</h1>
-    <img src="Assets/IMG/0150501300101_15.jpeg" style="max-width:100%" class="col-md-7 float-md-end mb-3 ms-md-3" alt="Photo from the National Archives of Canada">
+    <img src="Assets/IMG/0150501300101_15.jpeg" class="col-md-7 float-md-end mb-3 ms-md-3" alt="Photo from the National Archives of Canada">
     <p>The following is a comprehensive overview of my work experience. Although mostly not information-science related, it provides context as to my background, experience, and strengths.</p>
-      <h2>2018 - Research Assistant // Carleton University, Ottawa</h2>
+      <h2>2018 - Research Assistant</h2>
+        <h3>Carleton University, Ottawa</h3>
         <ul class="no-circle">
           <li>Performed preliminary research for a Professor of Humanities and Religion, <a href="https://carleton.ca/religion/people/kimberly-stratton/">Dr. Kimberly Stratton.</a></li>
         </ul>
@@ -205,7 +209,8 @@
             <li>Presentation of information </li>
           </ul>
 
-      <h2>Summer 2018 - Course Pack Production Assistant // <a href="https://canadianscholars.ca/">Canadian Scholars Press</a>, Toronto</h2>
+      <h2>Summer 2018 - Course Pack Production Assistant</h2>
+        <h3><a href="https://canadianscholars.ca/">Canadian Scholars Press</a>, Toronto</h3>
         <ul class="no-circle"> <li>Created course packs for universities. Main duties consisted in scanning, digitally
         cleaning, and collating documents together.</li>
         <li>Included a special project updating office documents on fair use.</li> </ul>
@@ -216,7 +221,8 @@
             <li>Workflow optimization</li>
           </ul> 
 
-      <h2>2018-2021 - Cashier & Floater // <a href="https://www.wholefoodsmarket.com/stores/lansdownepark">Whole Foods Market</a>, Ottawa</h2>
+      <h2>2018-2021 - Cashier & Floater</h2>
+        <h3><a href="https://www.wholefoodsmarket.com/stores/lansdownepark">Whole Foods Market</a>, Ottawa</h3>
         <ul class="no-circle"> <li>Working on cash & as a floater, which included duties such as locating items for clients, collecting carts, returning misplaced store items, and bagging groceries.</li> </ul>
         <p>Skills:</p>   
           <ul>
@@ -224,46 +230,46 @@
             <li>Food handling</li>
             <li>Sales</li>
           </ul>
-
-
-      <h2>Summer 2021 - Bartender and Tourguide // <a href="https://www.ottawaboatcruise.com/">Paul’s Boat Line</a>, Ottawa/Gatineau</h2>
-      <!-- Want to find a way to limit the size of this image so it doens't disrupt the next one below. Right now things get fucky when the screen is too wide -->
-          <img src="Assets/IMG/IMG_1366.jpg" style="max-width:100%" class="col-md-5 float-md-end mb-3 ms-md-3" alt="Photo from River Cruise">
-        <ul class="no-circle"> 
-          <li>Bartending: served drinks, monitored visitors for intoxication, and managed bar space.</li>
-          <li>Tour Guiding: performed 45-minute tours of Ottawa while we drifted down the canal.</li>
-          <li>Bilingual position, French and English.</li>
-        </ul>
-        <p>Skills:</p>
-        <ul>
-          <li>Customer services</li>
-          <li>Sanitation</li>
-          <li>Problem-solving</li>
-          <li>Crowd control </li>
-        </ul>
         
-      <h2>2021-2024 - Live Captioner // VITAC Canada, Montreal</h2>
-        <ul class="no-circle">
-          <li>Creating TV captions for the deaf and hard of hearing</li>
-          <li>English team in a French office</li>
-        </ul>
-        <p>Skills:</p>
+        <img src="Assets/IMG/IMG_1366.jpg" class="col-md-5 float-md-start mb-3 ms-md-3" class="order-sm-1" alt="Photo from River Cruise">
+        <h2 class="order-sm-2">Summer 2021 - Bartender and Tourguide</h2>
+          <h3><a href="https://www.ottawaboatcruise.com/">Paul’s Boat Line</a>, Ottawa/Gatineau</h3>
+          <ul class="no-circle"> 
+            <li>Bartending: served drinks, monitored visitors for intoxication, and managed bar space.</li>
+            <li>Tour Guiding: performed 45-minute tours of Ottawa while we drifted down the canal.</li>
+            <li>Bilingual position, French and English.</li>
+          </ul>
+          <p>Skills:</p>
           <ul>
-            <li>Developing tech workarounds</li>
-            <li>Communication</li>
-            <li>Time management</li>
-            <li>Workstation optimization</li>
-          </ul> 
+            <li>Customer services</li>
+            <li>Sanitation</li>
+            <li>Problem-solving</li>
+            <li>Crowd control </li>
+          </ul>
+          
+        <h2>2021-2024 - Live Captioner</h2>
+          <h3>VITAC Canada, Montreal</h3>
+          <ul class="no-circle">
+            <li>Creating TV captions for the deaf and hard of hearing</li>
+            <li>English team in a French office</li>
+          </ul>
+          <p>Skills:</p>
+            <ul>
+              <li>Developing tech workarounds</li>
+              <li>Communication</li>
+              <li>Time management</li>
+              <li>Workstation optimization</li>
+            </ul>
 </div> 
 
 
 
 
 <!-- new section -->
-<div class="main-section-container" id="contact_bg" class="clearfix">
+<div class="main-section-container" id="contact_bg">
   <div class="row align-items-start">
     <div class="col-md-3">
-      <img src="Assets/IMG/Mail_icon.png" style="max-width:100%" alt="Mail icon">
+      <img class="no-border" src="Assets/IMG/Mail_icon.png" alt="Mail icon">
     </div>
     <div class="col-md">
       <h1 id="section-5" class="white-text">Contact</h1>
