@@ -35,15 +35,10 @@ ul.larger-pg{
 }
 
 /* styling lists */
-
 ul.no-circle {
   list-style-type: none;
   margin: 1;
   padding: 1;
-}
-
-ul.left-indent {
-  padding-left: 20%
 }
 
 /* changing the colour of links */
@@ -93,13 +88,6 @@ div.body-text-padding{
   font-family: "Parkinsans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal;
-}
-
-/* class for alternate font because i'm scared */
-.bhutuka-expanded-one-regular {
-  font-family: "BhuTuka Expanded One", serif;
-  font-weight: 400;
   font-style: normal;
 }
 
