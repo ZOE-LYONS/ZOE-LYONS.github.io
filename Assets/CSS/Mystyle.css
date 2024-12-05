@@ -4,34 +4,40 @@
 override other aspects of the code */
 
 /*setting colours and basic features of text */
+/* major 3rd scale, only with p text made a little larger, and
+with h2 serving as h3, h3 serving as h5, and larger-pg serving as h6 */
 h1{color:#3d0c11;
-font-size: 3em;
-margin-bottom: 1%;
+font-size: 3.815rem;
+margin-bottom: 2%;
 }
 
 h2{color:#3d0c11;
-font-size: 2em;
-margin-top: 3%}
+font-size: 2.441rem;
+margin-top: 3%;
+padding-right: 2%
+}
 
 h3{color:#3d0c11;
-  font-size: 1.5em}
+  font-size: 1.563rem}
 
-p{color:#3d0c11;}
+p{color:#3d0c11;
+  font-size: 1.15rem
+}
 
 ul{color:#3d0c11;
   list-style-type: circle;
+  font-size: 1.15rem;
   margin: 1;
   padding: 1;}
 
-/* making text larger sometimes*/
 .larger-pg{
   color:#3d0c11;
-  font-size: 1.2em;
+  font-size: 1.25rem;
 }
 
 ul.larger-pg{
   color:#3d0c11;
-  font-size: 1.2em;
+  font-size: 1.25rem;
 }
 
 /* styling lists */
@@ -39,6 +45,11 @@ ul.no-circle {
   list-style-type: none;
   margin: 1;
   padding: 1;
+  text-indent: 2%
+}
+
+ul.left-indent {
+  text-indent: 2%;
 }
 
 /* changing the colour of links */
@@ -58,7 +69,7 @@ a:hover{color:#fa5e5e;}
 /* class for white text */
 h1.white-text {color:#ffefd5}
 p.white-text {color:#ffefd5;
-  font-size: 1.8em;
+  font-size: 1.953rem;
   margin: 0.2;
   padding: 0.2;
 }
